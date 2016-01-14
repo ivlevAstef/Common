@@ -1,0 +1,2 @@
+--opt RGBA4444 --dither-fs-alpha
+.pvr.ccz

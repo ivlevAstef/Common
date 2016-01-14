@@ -1,0 +1,17 @@
+﻿  serializable.cpp
+c:\libraries\stef\visual project\serializatecpp\serializatecpp\dataserializate.h(839): error C2977: 'Serializable::Information' : too many template arguments
+          c:\libraries\stef\visual project\serializatecpp\serializatecpp\dataserializate.h(22) : see declaration of 'Serializable::Information'
+c:\libraries\stef\visual project\serializatecpp\serializatecpp\serializable.cpp(186): error C2514: 'Serializable::Information' : class has no constructors
+          c:\libraries\stef\visual project\serializatecpp\serializatecpp\dataserializate.h(22) : see declaration of 'Serializable::Information'
+c:\libraries\stef\visual project\serializatecpp\serializatecpp\serializable.cpp(187): error C2662: 'Serializable::Information<Type>::load' : cannot convert 'this' pointer from 'Serializable::Information' to 'Serializable::Information<Type> &'
+          Reason: cannot convert from 'Serializable::Information' to 'Serializable::Information<Type>'
+          Conversion requires a second user-defined-conversion operator or constructor
+c:\libraries\stef\visual project\serializatecpp\serializatecpp\serializable.cpp(199): error C2514: 'Serializable::Information' : class has no constructors
+          c:\libraries\stef\visual project\serializatecpp\serializatecpp\dataserializate.h(22) : see declaration of 'Serializable::Information'
+c:\libraries\stef\visual project\serializatecpp\serializatecpp\serializable.cpp(200): error C2662: 'Serializable::Information<Type>::save' : cannot convert 'this' pointer from 'Serializable::Information' to 'Serializable::Information<Type> &'
+          Reason: cannot convert from 'Serializable::Information' to 'Serializable::Information<Type>'
+          Conversion requires a second user-defined-conversion operator or constructor
+  main.cpp
+c:\libraries\stef\visual project\serializatecpp\serializatecpp\dataserializate.h(839): error C2977: 'Serializable::Information' : too many template arguments
+          c:\libraries\stef\visual project\serializatecpp\serializatecpp\dataserializate.h(22) : see declaration of 'Serializable::Information'
+  Generating Code...
